@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Edureka Design part1</title>
+  </head>
+  <body>
+    <!-- navbar design -->
+    <section class="home-page-header-section">
+      <header>
+        <div class="brand">e!</div>
+
+        <div class="login-btn-div">
+          <a href="#" class="text-color-white"> Login</a>
+          <a href="#" class="text-color-white create-account-btn">
+            Create an account</a
+          >
+        </div>
+      </header>
+    </section>
+
+    <div class="main-heading container-fluid">Breakfast Places in Mumbai</div>
+
+    <section class="main-section container-fluid">
+      <!-- main section design with filters on left  -->
+      <section class="filters-container">
+        <h2 class="filters-title">Filters</h2>
+        <section class="location-section">
+          <h2 class="filters-common-title">Select a Location</h2>
+
+          <select name="location" id="location" class="location-select-box">
+            Select Location
+
+            <option
+              class="text-grey-for-placeholder"
+              value=""
+              disabled
+              selected
+              hidden
+            >
+              Select Location
+            </option>
+            <option value="mumbai">Mumbai</option>
+            <option value="Kathmandu">Kathmandu</option>
+            <option value="Baglung">Baglung</option>
+          </select>
+        </section>
+        <section class="cuisine">
+          <h2 class="filters-common-title">Cuisine</h2>
+
+          <div class="north-indian cuisine-type-box">
+            <input type="checkbox" class="larger-checkbox" />
+            <label for="North Indian" class="common-text-cuisine"
+              >North Indian</label
+            >
+          </div>
+          <div class="south-indian cuisine-type-box">
+            <input type="checkbox" class="larger-checkbox" />
+            <label for="South Indian" class="common-text-cuisine"
+              >South Indian</label
+            >
+          </div>
+
+          <div class="chinese cuisine-type-box">
+            <input type="checkbox" class="larger-checkbox" />
+            <label for="Chinese" class="common-text-cuisine">Chinese</label>
+          </div>
+          <div class="fast-food cuisine-type-box">
+            <input type="checkbox" class="larger-checkbox" />
+            <label for="Fast Food" class="common-text-cuisine">Fast Food</label>
+          </div>
+
+          <div class="street-food cuisine-type-box">
+            <input type="checkbox" class="larger-checkbox" />
+            <label for="Street Food" class="common-text-cuisine"
+              >Street Food</label
+            >
+          </div>
+
+          <div class="nepalese-food cuisine-type-box">
+            <input type="checkbox" class="larger-checkbox" />
+            <label for="Nepalese Food" class="common-text-cuisine"
+              >Nepalese Food</label
+            >
+          </div>
+        </section>
+        <!-- section for cost for two -->
+
+        <section class="cost-for-two">
+          <h2 class="filters-common-title">Cost For Two</h2>
+
+          <div class="cuisine-type-box">
+            <input type="radio" class="larger-checkbox" name="common-name" />
+            <label
+              for="lessthan500"
+              class="common-text-cuisine"
+              name="common-name"
+              >Less Than 500</label
+            >
+          </div>
+
+          <div class="cuisine-type-box">
+            <input type="radio" class="larger-checkbox" name="common-name" />
+            <label for="500-1000" class="common-text-cuisine" name="common-name"
+              >500 to 1000</label
+            >
+          </div>
+
+          <div class="cuisine-type-box">
+            <input type="radio" class="larger-checkbox" name="common-name" />
+            <label
+              for="1000-1500"
+              class="common-text-cuisine"
+              name="common-name"
+              >1000 to 1500
+            </label>
+          </div>
+
+          <div class="cuisine-type-box">
+            <input type="radio" class="larger-checkbox" name="common-name" />
+            <label
+              for="1500-2000"
+              class="common-text-cuisine"
+              name="common-name"
+              >1500 to 2000</label
+            >
+          </div>
+
+          <div class="cuisine-type-box">
+            <input type="radio" class="larger-checkbox" name="common-name" />
+            <label for="2000-+" class="common-text-cuisine" name="common-name"
+              >2000+</label
+            >
+          </div>
+        </section>
+
+        <!-- section for sort -->
+        <section class="sort">
+          <h2 class="filters-common-title">Sort</h2>
+          <div class="cuisine-type-box">
+            <input type="radio" class="larger-checkbox" name="price-sort" />
+            <label
+              for="price-low-high"
+              class="common-text-cuisine"
+              name="price-sort"
+              >Price low to high</label
+            >
+          </div>
+          <div class="cuisine-type-box">
+            <input type="radio" class="larger-checkbox" name="price-sort" />
+            <label
+              for="price-high-low"
+              class="common-text-cuisine"
+              name="price-sort"
+              >Price high to low</label
+            >
+          </div>
+        </section>
+      </section>
+
+      <!-- section for food-image and description  -->
+
+      <section class="food-items-container-wrapper">
+        <section class="food-items-container">
+          <!-- one food-item -->
+          <section class="food-image-container">
+            <div class="image-div">
+              <img src="images/idli.png" alt="dish image" />
+            </div>
+            <div class="food-items-desc">
+              <h2 class="food-item-title">The Big Chill Bakery</h2>
+              <p class="food-item-subtitle">Fort</p>
+              <p class="food-item-address">
+                Shop 1, Plot D, Samruddhi Complex, Chincholi …
+              </p>
+            </div>
+          </section>
+          <section class="price">
+            <hr />
+            <div class="food-type">
+              <p>Cuisines:</p>
+              <p>Bakery</p>
+            </div>
+
+            <div class="food-price food-type">
+              <p>Cost For Two:</p>
+              <p>$700</p>
+            </div>
+          </section>
+        </section>
+
+        <!-- This is 2nd food -->
+        <section class="food-items-container">
+          <!-- one food-item -->
+          <section class="food-image-container">
+            <div class="image-div">
+              <img src="images/idli.png" alt="dish image" />
+            </div>
+            <div class="food-items-desc">
+              <h2 class="food-item-title">The Big Chill Bakery</h2>
+              <p class="food-item-subtitle">Fort</p>
+              <p class="food-item-address">
+                Shop 1, Plot D, Samruddhi Complex, Chincholi …
+              </p>
+            </div>
+          </section>
+          <section class="price">
+            <hr />
+            <div class="food-type">
+              <p>Cuisines:</p>
+              <p>Bakery</p>
+            </div>
+
+            <div class="food-price food-type">
+              <p>Cost For Two:</p>
+              <p>$700</p>
+            </div>
+          </section>
+
+
+        </section>
+      </section>
+
+      
+    </section>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* common-container common css */
+.container-fluid {
+  padding: 2% 11%;
+}
+.text-color-white {
+  color: #ffffff;
+}
+
+.text-grey-for-placeholder {
+  color: grey;
+  opacity: 0.5;
+}
+/* _____________________________________________________________________ */
+/* css for header only */
+.home-page-header-section {
+  width: 100%;
+  background-color: #ce0505;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  width: 80%;
+}
+
+.brand {
+  border: 1px solid #ffffff;
+
+  border-radius: 50%;
+  padding: 15px;
+  background-color: #ffffff;
+  color: #eb2929;
+  font-size: 1.6rem;
+  font-weight: 900;
+  text-align: left;
+  font: normal normal 600 33px/50px Poppins;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.login-btn-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-btn-div a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  font: normal normal medium 16px/25px Poppins;
+}
+
+.create-account-btn {
+  border: 1px solid #ffffff;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+/* header css finish here */
+
+/* designing main section heading */
+
+.main-section {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-heading {
+  font: normal normal bold 36px/55px Poppins;
+  letter-spacing: 0px;
+  color: #192f60;
+  opacity: 1;
+}
+
+/* filters container css and left side */
+.filters-container {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  width: 24%;
+  height: 800px;
+  padding: 2% 4%;
+}
+
+.filters-title {
+  text-align: left;
+  font: normal normal 600 18px/27px Poppins;
+  letter-spacing: 0px;
+  color: #192f60;
+}
+.filters-common-title {
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #192f60;
+  padding: 14px 0;
+}
+
+.location-select-box {
+  padding: 7px 120px 7px 10px;
+}
+.location-select-box option {
+  text-align: left;
+}
+
+.common-text-cuisine {
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #8c96ab;
+  padding-left: 10px;
+}
+
+.cuisine-type-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+input.larger-checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+/* food items list container right side css */
+
+.food-items-container-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+}
+
+.food-items-container {
+  box-shadow: 0px 3px 6px #00000029;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  width: 100%;
+  height: 350px;
+  padding: 2% 4%;
+  margin-bottom: 2%;
+
+}
+
+.image-div {
+  width: 20%;
+  height: 120px;
+}
+.image-div img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.food-image-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.food-item-title {
+  font: normal normal 600 30px/46px Poppins;
+  letter-spacing: 0px;
+  color: #192f60;
+}
+
+.food-item-subtitle {
+  font: normal normal medium 16px/30px Poppins;
+  color: #192f60;
+}
+
+.food-item-address {
+  font: normal normal normal 16px/30px Poppins;
+
+  color: #636f88;
+}
+
+.price {
+  margin-top: 20px;
+  padding: 2% 4%;
+}
+
+.food-type {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.food-type p {
+  font: normal normal normal 16px/30px Poppins;
+}
